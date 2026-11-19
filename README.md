@@ -24,4 +24,11 @@ Projeto de portfólio desenvolvido para demonstrar habilidades em engenharia e a
 
 1. Clone este repositório na sua máquina:
    ```bash
-git clone [https://github.com/Dantas3909/analise-inflacao-ipca.git](https://github.com/Dantas3909/analise-inflacao-ipca.git)
+   git clone https://github.com/Dantas3909/analise-inflacao-ipca.git
+   ```
+   2. Instale as dependências necessárias (Pandas e Requests):
+   ```bash
+   pip install pandas requests
+   python coleta_ipca.py
+   python analise_sql.py
+   ```
